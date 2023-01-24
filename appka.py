@@ -43,7 +43,7 @@ def main():
 		Oldpeak_slider = st.slider("Oldpeak", min_value=-2, max_value=7)
 
 
-	data = [[Sex_radio, FastingBS_radio, ChestPainType_radio,  RestingECG_radio, ExerciseAngina_radio, ST_Slope_radio, Age_slider, RestingBP_slider,Cholesterol_slider, FastingBS_slider, MaxHR_slider]]
+	data = [[Sex_radio, FastingBS_radio, ChestPainType_radio,  RestingECG_radio, ExerciseAngina_radio, ST_Slope_radio, Age_slider, RestingBP_slider,Cholesterol_slider, MaxHR_slider]]
 	survival = model.predict(data)
 	s_confidence = model.predict_proba(data)
 
