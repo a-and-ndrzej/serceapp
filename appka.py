@@ -40,7 +40,7 @@ def main():
 		RestingBP_slider = st.slider("Spoczynkowe ciśnienie krwi", min_value=0, max_value=200)
 		Cholesterol_slider = st.slider("Cholesterol", min_value=0, max_value=603)
 		MaxHR_slider = st.slider("Maksymalne tętno", min_value=60, max_value=202)
-		Oldpeak_slider = st.slider("Oldpeak", min_value=-2, max_value=7)
+		#Oldpeak_slider = st.slider("Jak zdr", min_value=-2, max_value=7)
 
 
 	data = [[Sex_radio, FastingBS_radio, ChestPainType_radio,  RestingECG_radio, ExerciseAngina_radio, ST_Slope_radio, Age_slider, RestingBP_slider,Cholesterol_slider, MaxHR_slider]]
